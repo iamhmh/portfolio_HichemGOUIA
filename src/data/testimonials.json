@@ -1,0 +1,16 @@
+{
+    "entries": [
+        {
+            "img": "{{webRoot}}/assets/images/icon/github.svg",
+            "img2": "{{webRoot}}/assets/images/icon/nodejs.svg",
+            "img3": "{{webRoot}}/assets/images/icon/typescript.svg",
+            "img4": "{{webRoot}}/assets/images/icon/javascript.svg",
+            "img5": "{{webRoot}}/assets/images/icon/ionic.svg",
+            "img6": "{{webRoot}}/assets/images/icon/vuejs.svg",
+            "img7": "{{webRoot}}/assets/images/icon/symfony.svg",
+            "img8": "{{webRoot}}/assets/images/icon/sass.svg",
+            "img9": "{{webRoot}}/assets/images/icon/sequelize.svg",
+            "img10": "{{webRoot}}/assets/images/icon/php.svg"
+        }
+    ]
+}

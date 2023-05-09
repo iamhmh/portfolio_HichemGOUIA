@@ -1,0 +1,28 @@
+{
+    "entries": [
+        {
+            "skill": "HTML5, CSS3, Scss, Bootstrap",
+            "percent": "95"
+        },
+        {
+            "skill": "Javascript, jQuery, Typescript",
+            "percent": "75"
+        },
+        {
+            "skill": "Node.js, Express.js, MongoDB, EJS, Passport.js, Sequelize",
+            "percent": "80"
+        },
+        {
+            "skill": "PHP, Symfony, Twig, Doctrine, MySQL",
+            "percent": "60"
+        },
+        {
+            "skill": "SQL, MySQL, PostgreSQL, MongoDB",
+            "percent": "75"
+        },
+        {
+            "skill": "Wordpress, WooCommerce",
+            "percent": "70"
+        }
+    ]
+}

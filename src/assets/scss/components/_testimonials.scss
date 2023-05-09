@@ -1,0 +1,23 @@
+.testimonials {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sectionStack {
+    margin-top: 13rem;
+    margin-bottom: 10rem;
+}
+.card-testimonial {
+    box-shadow: var(--theme-card-box-shadow);
+    background: var(--theme-card-bg);
+    color: var(--theme-card-color);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 80vw;
+    max-width: 700px;
+    display: flex;
+}
+
+.img-icon {
+    margin: 2rem;
+}

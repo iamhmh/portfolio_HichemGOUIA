@@ -1,0 +1,15 @@
+{
+    "entries": [
+        {
+            "img": "{{webRoot}}/assets/images/icon/wordpress.svg",
+            "img2": "{{webRoot}}/assets/images/icon/elementor.svg",
+            "img3": "{{webRoot}}/assets/images/icon/ps.svg",
+            "img4": "{{webRoot}}/assets/images/icon/pr.svg",
+            "img5": "{{webRoot}}/assets/images/icon/ae.svg",
+            "img6": "{{webRoot}}/assets/images/icon/ai.svg",
+            "img7": "{{webRoot}}/assets/images/icon/xd.svg",
+            "img8": "{{webRoot}}/assets/images/icon/notion.svg",
+            "img9": "{{webRoot}}/assets/images/icon/figma.svg"
+        }
+    ]
+}

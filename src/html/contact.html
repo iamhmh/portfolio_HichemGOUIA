@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head) title=config.defaultPageTitle }}
+
+<body class="{{ config.classes.body }}">
+
+    <!-- Locomotive Scroll Container-->
+    <div data-scroll-container>
+        <!-- Navbar -->
+        {{> (config config.partials.navbar)
+        configClassList=config.classes.navbar
+        classList="" }}
+        <!-- / Navbar-->
+
+        <!-- Main Section-->
+        <section class="container py-3 {{ config.classes.content }}" data-scroll-section>
+            <!-- Page Content Goes Here -->
+
+            <div class="position-relative ps-xl-7" style="margin-top: 6rem;">
+                <div class="tracking-wide text-vertical mt-4 small d-none d-xl-block">
+                    <a class="text-vertical-link me-3" href="https://github.com/iamhmh">Github</a>
+                    &middot; 
+                    <a class="text-vertical-link mx-3" href="https://www.linkedin.com/in/hichem-gouia/">Linkedin</a> 
+                    &middot; 
+                    <a class="text-vertical-link ms-3" href="https://www.instagram.com/_hmhmusic/">Instagram</a>
+                </div>
+                <div class="FormContact" style="margin-left: 2rem; width:auto">
+                <h1 class="display-3 col-xxl-8 mb-8">Wanna have a coffee ?
+                    <img class="img-fluid" style="display: block; width: 10%;" src="{{webRoot}}/assets/images/icon/hot-beverage_2615.png" alt="{{ config.defaultImgAlt }}">
+                </h1>
+
+                <h4 class="subtitle-sm mb-3" style="margin-top: 5rem;">Email me</h4>
+                <a class="link-body" href="mailto:contact.hichemgouia@gmail.com">contact.hichemgouia@gmail.com</a>
+
+                <h4 class="subtitle-sm mt-4 mb-4" style="margin-top: 5rem !important;">Send Me A Message</h4>
+
+                <!-- Contact Form-->
+                <form>
+                    <div class="row g-5">
+
+                        <div class="col-12 col-xl-7">
+                            <div class="row g-5">
+                                <!-- Name-->
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" name="name" placeholder="John Doe">
+                                </div>
+                                <!-- / Name-->
+
+                                <!-- Email-->
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label">Your Email Address</label>
+                                    <input type="email" class="form-control" name="email" placeholder="john@doe.com">
+                                </div>
+                                <!-- / Email-->
+
+                                <!-- Company Name-->
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label">Your Company</label>
+                                    <input type="text" class="form-control" name="company" placeholder="Your Compagny">
+                                </div>
+                                <!-- / Company Name-->
+
+                                <!-- Telephone-->
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label">Your Telephone</label>
+                                    <input type="text" class="form-control" name="telephone"
+                                        placeholder="+33 (0)123 456 789">
+                                </div>
+                                <!-- / Telephone-->
+
+                                <!-- Project Information-->
+                                <div class="col-12">
+                                    <label class="form-label">Tell Me About Your Project</label>
+                                    <textarea name="about" class="form-control" cols="30" rows="12"
+                                        placeholder="Hi Hichem, I would like to talk about the design and build of a custom Ecommerce platform that uses Node.js and Vue.js frontend..."></textarea>
+                                </div>
+                                <!-- / Project Information-->
+
+                                <!-- Submit btn-->
+                                <div class="col-12 justify-content-end d-flex">
+                                    <button class="btn btn-primary" type="submit" style="background: #A8D883; border: 0px;">Send Message</button>
+                                </div>
+                                <!-- / Submit Btn-->
+                            </div>
+                        </div>
+
+
+                    </div>
+                </form>
+                <!-- / Contact Form-->
+                </div>
+            </div>
+
+            <!-- /Page Content -->
+        </section>
+        <!-- / Main Section-->
+
+        <!-- Footer -->
+        {{> (config config.partials.footer)
+            configClassList=config.classes.footer
+            classList=""
+    }}
+        <!-- / Footer-->
+    </div>
+    <!-- /Locomotive Scroll Container-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+{
+    "entries": [
+        {
+            "img": "{{webRoot}}/assets/images/Projet_5.jpg",
+            "title": "VueJS-Ionic Business Network App",
+            "description": "Development of a custom VueJS-Ionic and NodeJS app for a Business Network.",
+            "category": "<span class='me-2'>App</span> &middot; <span class='ms-2'>VueJS-Ionic</span>",
+            "githubUrl": "https://github.com/iamhmh/reseau_vosges"
+        },
+        {
+            "img": "{{webRoot}}/assets/images/Projet_1.jpg",
+            "title": "NodeJS Restaurant Web App",
+            "description": "Design and development of a custom NodeJS Restaurant platform for a comtemporary restaurant.",
+            "category": "<span class='me-2'>RESTAURANT</span> &middot; <span class='ms-2'>NODEJS</span>",
+            "githubUrl": "https://github.com/iamhmh/nodejs_express-ejs-mongoose-bodyparser-nodemon"
+        },
+        {
+            "img": "{{webRoot}}/assets/images/Projet_2.jpg",
+            "title": "PHP Museum Web App",
+            "description": "Refont Design and development of a custom Museum platform for 'Le Carnavalet, Musée d'Art de Paris'.",
+            "category": "<span class='me-2'>Showcase</span> &middot; <span class='ms-2'>PHP</span>",
+            "githubUrl": "https://github.com/iamhmh/fullstack_museedeparis"
+        },
+        {
+            "img": "{{webRoot}}/assets/images/Projet_3.jpg",
+            "title": "Wordpress Ecommerce Web App",
+            "description": "Design and development of a WooCommerce/Wordpress Ecommerce platform for an office sales site.",
+            "category": "<span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Wordpress</span>",
+            "githubUrl": "https://corses.inpact.studio/"
+        },
+        {
+            "img": "{{webRoot}}/assets/images/Projet_4.jpg",
+            "title": "Concept Store Web App",
+            "description": "Complete design of an Ecommerce concept store for home accessories reseller.",
+            "category": "<span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Figma</span>",
+            "githubUrl": ""
+        }
+    ]
+}

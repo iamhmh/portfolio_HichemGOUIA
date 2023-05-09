@@ -1,0 +1,44 @@
+{
+    "entries": [
+        {
+            "title": "Web & App Developer (Intership)",
+            "company": "LTG Services",
+            "years": "2023 - present",
+            "description": "My mission was to develop a professional networking application based on an existing application. I used Node.js and Express.js (Typescript-Sequelize, MongoDB), Ionic with Vue.js 3 + Tailwindcss, as well as several useful packages and dependencies. The application has not been deployed yet.",
+            "url": "https://ltg-services.fr",
+            "url-title": "https://ltg-services.fr"
+        },
+        {
+            "title": "Fullstack Developer",
+            "company": "CCI des Vosges",
+            "years": "2022 - 2023",
+            "description": "I passed a diploma of fullstack web developer where I was able to perfect all my necessary techniques in front-end and back-end development of a website. Next to the courses, I specialized myself in web and mobile application development using Node.js with Typescript and the stack MEVNS (MongoDB, Express.js, Vue.js, Node.js, Sequelize).",
+            "url": "",
+            "url-title": ""
+        },
+        {
+            "title": "Recruitment and Sales Manager",
+            "company": "Activ'Interim 88",
+            "years": "2022",
+            "description": "I was in charge of recruiting and placing temporary staff in partner companies. I had to manage the schedule of temporary workers in place in companies, manage appointments, interviews, and I had to be responsive to companies' needs.",
+            "url": "https://www.activ88-interim.com/",
+            "url-title": "https://www.activ88-interim.com/"
+        },
+        {
+            "title": "Customer Service",
+            "company": "Linvosges",
+            "years": "2020 - 2021",
+            "description": "After finishing my degree in Graphic Design, I joined Cube agency in London in 2014 and worked on projects for companies such as Nestle, Spotify and Red Cabbage.",
+            "url": "https://www.linvosges.com/fr/",
+            "url-title": "https://www.linvosges.com/fr/"
+        },
+        {
+            "title": "DJ/Producer & Lightjockey",
+            "company": "AnR PROD - Paris(75)",
+            "years": "2018 - 2020",
+            "description": "I spent a BTS in musical and scenic animation in Lyon, and in parallel I was alternating in Paris in an artist booking agency, where I was DJ resident of several establishments, and also technician sound and light for public and private events.",
+            "url": "https://www.anrprod.com/",
+            "url-title": "https://www.anrprod.com/"
+        }
+    ]
+}

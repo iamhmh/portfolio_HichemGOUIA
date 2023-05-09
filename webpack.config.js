@@ -140,7 +140,7 @@ const wPackConfig = {
                     from: paths.src.favicon,
                     to: paths.dist.favicon,
                     noErrorOnMissing: true
-                }
+                },
             ],
         }),
         new HandlebarsPlugin({

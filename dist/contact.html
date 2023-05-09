@@ -41,11 +41,12 @@
       }
     </style>
   </noscript>
-
   <!-- Page Title -->
   <title>Portfolio Hichem Gouia</title>
 
 </head>
+
+<div id="cursor"></div>
 <body class="">
 
     <!-- Locomotive Scroll Container-->
@@ -111,9 +112,8 @@
                 <h4 class="subtitle-sm mt-4 mb-4" style="margin-top: 5rem !important;">Send Me A Message</h4>
 
                 <!-- Contact Form-->
-                <form>
+                <form action="https://formspree.io/f/xqkonrpy" method="POST">
                     <div class="row g-5">
-
                         <div class="col-12 col-xl-7">
                             <div class="row g-5">
                                 <!-- Name-->
@@ -122,21 +122,18 @@
                                     <input type="text" class="form-control" name="name" placeholder="John Doe">
                                 </div>
                                 <!-- / Name-->
-
                                 <!-- Email-->
                                 <div class="col-12 col-md-6">
                                     <label class="form-label">Your Email Address</label>
                                     <input type="email" class="form-control" name="email" placeholder="john@doe.com">
                                 </div>
                                 <!-- / Email-->
-
                                 <!-- Company Name-->
                                 <div class="col-12 col-md-6">
                                     <label class="form-label">Your Company</label>
                                     <input type="text" class="form-control" name="company" placeholder="Your Compagny">
                                 </div>
                                 <!-- / Company Name-->
-
                                 <!-- Telephone-->
                                 <div class="col-12 col-md-6">
                                     <label class="form-label">Your Telephone</label>
@@ -144,7 +141,6 @@
                                         placeholder="+33 (0)123 456 789">
                                 </div>
                                 <!-- / Telephone-->
-
                                 <!-- Project Information-->
                                 <div class="col-12">
                                     <label class="form-label">Tell Me About Your Project</label>
@@ -152,10 +148,9 @@
                                         placeholder="Hi Hichem, I would like to talk about the design and build of a custom Ecommerce platform that uses Node.js and Vue.js frontend..."></textarea>
                                 </div>
                                 <!-- / Project Information-->
-
                                 <!-- Submit btn-->
                                 <div class="col-12 justify-content-end d-flex">
-                                    <button class="btn btn-primary" type="submit" style="background: #A8D883; border: 0px;">Send Message</button>
+                                    <button class="btn btn-primary" type="submit" id="submit-btn" style="background: #A8D883; border: 0px;">Send Message</button>
                                 </div>
                                 <!-- / Submit Btn-->
                             </div>
@@ -197,6 +192,7 @@
     
     <!-- Theme JS -->
     <script src="./assets/js/theme.bundle.js"></script>
+
 </body>
 
 </html>
